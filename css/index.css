@@ -5,7 +5,7 @@
   background: #fff url("../img/loading2.svg") no-repeat center;
 
   z-index: 999999;
-}
+} 
 
 /* #loaders {
   margin: 0%;
@@ -172,7 +172,6 @@ nav {
 @media (max-width: 766px) {
   #jumbotron {
     background-image: url("../img/house2.png");
-    background-size: cover;
     background-repeat: no-repeat;
     background-color: #aaba97 !important;
     min-width: 150px;
@@ -197,13 +196,20 @@ nav {
 }
 
 @media (min-width: 767px) {
+  #our{
+    min-height: 500px;
+  }
   #jumbotron {
+    min-height:500px ;
     background-image: url("../img/house.png");
     background-repeat: no-repeat;
     background-color: #aaba97 !important;
     padding: 2rem 1rem;
     margin-bottom: 0rem !important;
     border-radius: 0 !important;
+  }
+  .text-d{
+    margin-top: 90px;
   }
   #card {
     border-radius: 0rem;
@@ -401,6 +407,7 @@ a {
   .text {
     color: white;
     position: absolute;
+    font-size: 1.5rem;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
